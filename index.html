@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat application</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<nav id="nav">
+    
+        <img  class="logo" src="chat.png">
+        <h1 data-aos="flip-right">Welcome to my Chat application</h1>
+    
+</nav>
+<div class="container" data-aos="zoom-in">
+   
+   
+   
+</div>
+<div id="form">
+    <form>
+        <input type="text" id="msg-inp" name="inp-msg">
+        <button type="submit" id="btn" >Send</button>
+    </form>
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000,
+        });
+    </script>
+    <script defer type="text/javascript" src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer type="text/javascript" src="js/client.js"></script>
+    
+</body>
+</html>

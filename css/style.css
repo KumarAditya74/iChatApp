@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rampart+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 155px;
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+   
+}
+body{
+    background-image: linear-gradient(blue,red) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+nav h1{
+    color:rgb(48, 197, 172);
+    margin-left: 35%;
+font-family: 'Rampart One', cursive;
+padding: 10px;
+font-size: 30px;
+}
+.container{
+    max-width: 800px;
+    background-color: rgb(255, 0, 170);
+    margin: auto;
+    width: 80%;
+    height: 70vh;
+    padding: 32px;
+    overflow-y: auto;
+    margin-bottom: 25px;
+    border: 2px solid yellow;
+
+}
+.message{
+    color: rgb(212, 15, 230);
+    float: right;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 5%;
+    background-color: rgb(21, 190, 168);
+    width: 45%;
+    clear: both;
+    border: 2px solid black;
+    font-family: 'Caveat', cursive;
+}
+.left{
+    color: rgb(48, 197, 172);
+    float: left;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(172, 13, 212);
+    width: 45%;
+    clear: both;
+    border: 2px solid black;
+    font-family: 'Caveat', cursive;
+}
+
+.right{
+    color: rgb(95, 101, 160);
+    padding: 10px;
+    background-color: coral;
+    width: 45%;
+    border-radius: 12px;
+    float: right;
+    clear: both;
+    border: 2px solid black;
+    font-family: 'Caveat', cursive;
+}
+
+#msg-inp{
+    width: 30%;
+    margin-top: 5%;
+    height: 6vh;
+    border: 20x solid black;
+    border-radius: 12px;
+    margin-left: 26%;
+}
+#btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 12%;
+}
+#btn:hover{
+    background-color: burlywood;
+}
